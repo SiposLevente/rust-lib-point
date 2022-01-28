@@ -9,14 +9,14 @@ pub mod point {
             Point { x, y }
         }
 
-        pub fn x(&self) -> T
+        pub fn get_x(&self) -> T
         where
             T: Copy,
         {
             self.x
         }
 
-        pub fn y(&self) -> T
+        pub fn get_y(&self) -> T
         where
             T: Copy,
         {
