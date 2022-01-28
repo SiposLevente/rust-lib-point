@@ -13,6 +13,20 @@ Initial "x" coordinate.
 #### `y: T`
 Initial "y" coordinate.
 
+## Getters and setters
+### Getters:
+<ul>
+  <li>x: T</li>
+  <li>y: T</li>
+</ul>
+
+### Setters:
+<ul>
+  <li>set_x: T</li>
+  <li>set_y: T</li>
+</ul>
+
+
 ## distance
 Returns the original points distance from a given point.
 
