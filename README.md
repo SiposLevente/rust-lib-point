@@ -26,6 +26,14 @@ Initial "y" coordinate.
   <li>set_y: T</li>
 </ul>
 
+## offset
+Offsets the point by the given ammount.
+### Arguments
+#### `x: T`
+Offset ammount for "x" coordinate.
+
+#### `y: T`
+Offset ammount for "y" coordinate.
 
 ## distance
 Returns the original points distance from a given point.
