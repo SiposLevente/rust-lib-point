@@ -1,34 +1,12 @@
 pub mod point {
     pub struct Point<T> {
-        x: T,
-        y: T,
+        pub x: T,
+        pub y: T,
     }
 
     impl<T> Point<T> {
         pub fn new(x: T, y: T) -> Point<T> {
             Point { x, y }
-        }
-
-        pub fn get_x(&self) -> T
-        where
-            T: Copy
-        {
-            self.x
-        }
-
-        pub fn get_y(&self) -> T
-        where
-            T: Copy
-        {
-            self.y
-        }
-
-        pub fn set_x(&mut self, x: T) {
-            self.x = x;
-        }
-
-        pub fn set_y(&mut self, y: T) {
-            self.x = y;
         }
 
         pub fn offset(&mut self, x: T, y: T)

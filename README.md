@@ -13,19 +13,6 @@ Initial "x" coordinate.
 #### `y: T`
 Initial "y" coordinate.
 
-## Getters and setters
-### Getters:
-<ul>
-  <li>get_x: T</li>
-  <li>get_y: T</li>
-</ul>
-
-### Setters:
-<ul>
-  <li>set_x: T</li>
-  <li>set_y: T</li>
-</ul>
-
 ## offset
 Offsets the point by the given ammount.
 ### Arguments
