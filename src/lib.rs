@@ -11,14 +11,14 @@ pub mod point {
 
         pub fn get_x(&self) -> T
         where
-            T: Copy, Clone
+            T: Copy
         {
             self.x
         }
 
         pub fn get_y(&self) -> T
         where
-            T: Copy, Clone
+            T: Copy
         {
             self.y
         }
