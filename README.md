@@ -2,7 +2,6 @@
 This library implements the basic functions of a generic 2D point. This library was made mainly for learning and practice purpose
 
 # Functions
-
 ## new
 Returns a new `Point<T>`.
 
