@@ -9,6 +9,30 @@ pub mod point {
             Point { x, y }
         }
 
+        pub fn x(&self) -> T
+        where
+            T: Copy,
+        {
+            self.x
+        }
+
+        pub fn y(&self) -> T
+        where
+            T: Copy,
+        {
+            self.y
+        }
+
+        pub fn set_x(&mut self, x: T)
+        {
+            self.x = x;
+        }
+
+        pub fn set_y(&mut self, y: T)
+        {
+            self.x = y;
+        }
+
         pub fn distance(&self, other_point: Point<T>) -> T
         where
             T: std::ops::Sub<Output = T>
