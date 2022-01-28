@@ -16,8 +16,8 @@ Initial "y" coordinate.
 ## Getters and setters
 ### Getters:
 <ul>
-  <li>x: T</li>
-  <li>y: T</li>
+  <li>get_x: T</li>
+  <li>get_y: T</li>
 </ul>
 
 ### Setters:
