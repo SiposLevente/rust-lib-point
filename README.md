@@ -4,23 +4,23 @@ This library implements the basic functions of a generic 2D point. This library 
 # Functions
 
 ## new
-Returns a new Point<T>.
+Returns a new `Point<T>`.
 
 ### Arguments
-#### x: T
+#### `x: T`
 Initial "x" coordinate.
 
-#### y: T
+#### `y: T`
 Initial "y" coordinate.
 
 ## distance
 Returns the original points distance from a given point.
 
 ### Argument
-#### other_point: Point<T>
+#### `other_point: Point<T>`
 The other point which the distance will be calculated from.
 
-## to_string
+## `to_string`
 Returns the point as a string
 
 # Operators
