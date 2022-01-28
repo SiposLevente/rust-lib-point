@@ -21,11 +21,11 @@ pub mod point {
             (sub.x * sub.x) + (sub.y * sub.y)
         }
 
-        pub fn print(&self) -> String
+        pub fn to_string(&self) -> String
         where
             T: std::fmt::Display,
         {
-            format!("({},{})", self.x, self.y)
+            format!("(x:{}, y:{})", self.x, self.y)
         }
     }
 
