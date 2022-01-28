@@ -23,14 +23,20 @@ pub mod point {
             self.y
         }
 
-        pub fn set_x(&mut self, x: T)
-        {
+        pub fn set_x(&mut self, x: T) {
             self.x = x;
         }
 
-        pub fn set_y(&mut self, y: T)
-        {
+        pub fn set_y(&mut self, y: T) {
             self.x = y;
+        }
+
+        pub fn offset(&mut self, x: T, y: T)
+        where
+            T: std::ops::AddAssign,
+        {
+            self.x += x;
+            self.y += y;
         }
 
         pub fn distance(&self, other_point: Point<T>) -> T
