@@ -24,11 +24,13 @@ The other point which the distance will be calculated from.
 Returns the point as a string
 
 # Operators
+
 ## Algebraic operators
 <ul>
   <li>Addition</li>
   <li>Substitution</li>
 </ul>
+
 ## Logical operators
 <ul>
   <li>Equity</li>
