@@ -33,7 +33,7 @@ pub mod point {
         where
             T: Display,
         {
-            format!("(x:{}, y:{})", self.x, self.y)
+            format!("(x:{},y:{})", self.x, self.y)
         }
     }
 
