@@ -1,6 +1,6 @@
 pub mod point {
     use std::fmt::{Display, Formatter, Result};
-    use std::ops::{AddAssign,Sub,Add,Mul};
+    use std::ops::{Add, AddAssign, Mul, Sub};
 
     pub struct Point<T> {
         pub x: T,
@@ -22,10 +22,7 @@ pub mod point {
 
         pub fn distance(&self, other_point: Point<T>) -> T
         where
-            T: Sub<Output = T>
-                + Add<Output = T>
-                + Mul<Output = T>
-                + Copy,
+            T: Sub<Output = T> + Add<Output = T> + Mul<Output = T> + Copy,
         {
             let point = Point::new(self.x, self.y);
             let sub = other_point - point;
