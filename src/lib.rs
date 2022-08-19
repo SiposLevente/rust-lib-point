@@ -2,7 +2,7 @@ pub mod point {
     use std::fmt::{Display, Formatter, Result};
     use std::ops::{Add, AddAssign, Mul, Sub};
 
-    #[derive(Clone)]
+    #[derive(Debug, Clone)]
     pub struct Point<T> {
         pub x: T,
         pub y: T,
