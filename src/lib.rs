@@ -21,15 +21,6 @@ pub mod point {
             self.y += y;
         }
 
-        pub fn distance(&self, other_point: Point<T>) -> T
-        where
-            T: Sub<Output = T> + Add<Output = T> + Mul<Output = T> + Copy,
-        {
-            let point = Point::new(self.x, self.y);
-            let sub = other_point - point;
-            (sub.x * sub.x) + (sub.y * sub.y)
-        }
-
         pub fn to_string(&self) -> String
         where
             T: Display,
